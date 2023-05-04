@@ -1,0 +1,3933 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-09 15:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: incident_management/actives/apps.py:7
+msgid "Actives"
+msgstr "Активы"
+
+#: incident_management/admin.py:14
+#: incident_management/templates/notifs/push/add.html:26
+#: incident_management/templates/notifs/push/change.html:18
+#: incident_management/templates/notifs/push/confirm_delete.html:27
+#: incident_management/templates/notifs/push/list.html:27
+msgid "Push notifications"
+msgstr "Всплывающие оповещения"
+
+#: incident_management/admin.py:39
+msgid "Incident management site admin"
+msgstr "Incident Management: панель администрирования"
+
+#: incident_management/admin.py:40
+msgid "Incident management administration"
+msgstr "Incident Management: администрирование"
+
+#: incident_management/admin.py:41
+msgid "Incident management site administration"
+msgstr "Incident Management: администрирование сайта"
+
+#: incident_management/affected_actives/apps.py:7
+msgid "Affected actives"
+msgstr "Затронутые активы"
+
+#: incident_management/api_v2/accounts/serializers.py:21
+msgid "Must include \"email\" and \"password\"."
+msgstr ""
+
+#: incident_management/api_v2/accounts/serializers.py:26
+#: incident_management/api_v2/accounts/serializers.py:42
+msgid "Unable to log in with provided credentials."
+msgstr "Невозможно войти с предоставленными учетными данными."
+
+#: incident_management/api_v2/accounts/serializers.py:29
+#: incident_management/api_v2/accounts/views.py:117
+msgid ""
+"Your account is blocked after 3 months of inactivity. To restore access and "
+"obtain a new password, contact the support service: sd@amonitoring.ru"
+msgstr ""
+"Ваша учетная запись заблокирована по истечении 3 месяцев неактивности. Для "
+"восстановления доступа и получения нового пароля обратитесь в службу "
+"поддержки АО \"ПМ\": sd@amonitoring.ru"
+
+#: incident_management/api_v2/accounts/views.py:64
+msgid "The password is outdated. Password change is required."
+msgstr "Пароль устарел. Необходимо сменить пароль."
+
+#: incident_management/api_v2/accounts/views.py:111
+msgid "No user with such email."
+msgstr "Пользователь с таким email не найден."
+
+#: incident_management/api_v2/accounts/views.py:114
+msgid "Invalid password."
+msgstr "Неверный пароль."
+
+#: incident_management/api_v2/accounts/views.py:169
+#, fuzzy
+#| msgid "The two password fields didn't match"
+msgid "New passwords don't match."
+msgstr "Поля пароля не совпадают."
+
+#: incident_management/api_v2/accounts/views.py:175
+msgid "The new password does not comply with security policies."
+msgstr "Новый пароль не соответствует политикам безопасности."
+
+#: incident_management/api_v2/actions_taken/views.py:28
+msgid "Get actions taken samples error"
+msgstr "Ошибка получения предпринятых действий"
+
+#: incident_management/api_v2/actions_taken/views.py:44
+msgid "Create action taken sample error"
+msgstr "Ошибка создания шаблона предпринятых действий"
+
+#: incident_management/api_v2/apps.py:7
+msgid "API"
+msgstr "API"
+
+#: incident_management/api_v2/bulletins/views.py:60
+msgid "Bulletin create error"
+msgstr "Ошибка создания бюллетеня"
+
+#: incident_management/api_v2/bulletins/views.py:82
+msgid "Bulletin get error"
+msgstr "Ошибка получения бюллетеня"
+
+#: incident_management/api_v2/bulletins/views.py:96
+msgid "Bulletin delete error"
+msgstr "Ошибка удаления бюллетеня"
+
+#: incident_management/api_v2/bulletins/views.py:118
+msgid "Get bulletin file error"
+msgstr "Ошибка получения бюллетеня"
+
+#: incident_management/api_v2/bulletins/views.py:134
+msgid "Mark bulletin read error"
+msgstr "Ошибка установки отметки о прочтении бюллетеня"
+
+#: incident_management/api_v2/events/views.py:42
+#: incident_management/events/services/get_events_from_elastic.py:82
+msgid "Error when receiving events from elastic"
+msgstr "Ошибка при получении событий от elastic"
+
+#: incident_management/api_v2/events/views.py:65
+msgid "Error saving mp_events to file"
+msgstr "Ошибка сохранения событий в файл"
+
+#: incident_management/api_v2/events/views.py:82
+msgid "Error adding events to incident"
+msgstr "Ошибка добавления событий к инциденту"
+
+#: incident_management/api_v2/events/views.py:104
+msgid "Error when receiving tmp events"
+msgstr "Ошибка при получении событий"
+
+#: incident_management/api_v2/events/views.py:119
+msgid "Error deleting tmp events"
+msgstr "Ошибка удаления временных событий"
+
+#: incident_management/api_v2/incidents/views.py:163
+#: incident_management/incidents/services/create_incident.py:46
+msgid "Create incident error"
+msgstr "Ошибка создания инцидента"
+
+#: incident_management/api_v2/incidents/views.py:186
+msgid "Get incident error"
+msgstr "Ошибка получения инцидента"
+
+#: incident_management/api_v2/incidents/views.py:201
+msgid "Remove incident error"
+msgstr "Ошибка удаления инцидента"
+
+#: incident_management/api_v2/incidents/views.py:216
+msgid "Update incident error"
+msgstr "Ошибка обновления инцидента"
+
+#: incident_management/api_v2/incidents/views.py:241
+msgid "Get incident comments error"
+msgstr "Ошибка получения комментариев"
+
+#: incident_management/api_v2/incidents/views.py:257
+msgid "Create incident comment error"
+msgstr "Ошибка создания комментария"
+
+#: incident_management/api_v2/incidents/views.py:275
+msgid "Get incident comment error"
+msgstr "Ошибка получения комментария"
+
+#: incident_management/api_v2/incidents/views.py:290
+msgid "Remove incident comment error"
+msgstr "Ошибка удаления комментария"
+
+#: incident_management/api_v2/incidents/views.py:308
+msgid "Get incident attachments error"
+msgstr "Ошибка получения прикрепленных файлов"
+
+#: incident_management/api_v2/incidents/views.py:324
+msgid "Create incident attachment error"
+msgstr "Ошибка прикрепления файла"
+
+#: incident_management/api_v2/incidents/views.py:342
+msgid "Get incident attachment error"
+msgstr "Ошибка получения прикрекпленного файла"
+
+#: incident_management/api_v2/incidents/views.py:357
+msgid "Remove incident attachment error"
+msgstr "Ошибка удаления прикрепленного файла"
+
+#: incident_management/api_v2/incidents/views.py:369
+msgid "Get incident recommendations error"
+msgstr "Ошибка получения рекомендаций"
+
+#: incident_management/api_v2/incidents/views.py:386
+msgid "Change incident recommendations error"
+msgstr "Ошибка изменения рекомендаций"
+
+#: incident_management/api_v2/incidents/views.py:402
+msgid "Change incident recommendations order error"
+msgstr "Ошибка изменения порядка рекомендаций"
+
+#: incident_management/api_v2/incidents/views.py:420
+msgid "Get incident recommendation error"
+msgstr "Ошибка получения рекомендации"
+
+#: incident_management/api_v2/incidents/views.py:436
+msgid "Remove incident recommendation error"
+msgstr "Ошибка удаления рекомендации"
+
+#: incident_management/api_v2/incidents/views.py:454
+msgid "Confirm incident recommendation error"
+msgstr "Ошибка подтверждения рекомендации"
+
+#: incident_management/api_v2/incidents/views.py:472
+msgid "Get incident actions taken error"
+msgstr "Ошибка получения предпринятых действий"
+
+#: incident_management/api_v2/incidents/views.py:490
+msgid "Change incident actions taken error"
+msgstr "Ошибка изменения предпринятых действий"
+
+#: incident_management/api_v2/incidents/views.py:508
+msgid "Get incident action taken error"
+msgstr "Ошибка получения предпринятого действия"
+
+#: incident_management/api_v2/incidents/views.py:524
+msgid "Remove incident action taken error"
+msgstr "Ошибка удаления предпринятого действия"
+
+#: incident_management/api_v2/incidents/views.py:541
+msgid "Send incident to client error"
+msgstr "Ошибка передачи инцидента заказчику"
+
+#: incident_management/api_v2/incidents/views.py:559
+msgid "Get incident history error"
+msgstr "Ошибка получения истории"
+
+#: incident_management/api_v2/incidents/views.py:582
+msgid "Delete incident event error"
+msgstr "Ошибка удаления события"
+
+#: incident_management/api_v2/incidents/views.py:600
+msgid "Create NCIRCC notification error"
+msgstr "Ошибка создания уведомления НКЦКИ"
+
+#: incident_management/api_v2/incidents/views.py:616
+msgid "Update NCIRCC notification error"
+msgstr "Ошибка обновления уведомления НКЦКИ"
+
+#: incident_management/api_v2/incidents/views.py:634
+msgid "Get notification comments error"
+msgstr "Ошибка получения комментариев уведомления"
+
+#: incident_management/api_v2/incidents/views.py:650
+msgid "Create notification comment error"
+msgstr "Ошибка создания комментария"
+
+#: incident_management/api_v2/incidents/views.py:668
+msgid "Get notification comment error"
+msgstr "Ошибка получения комментария"
+
+#: incident_management/api_v2/incidents/views.py:686
+msgid "Get notification evidences error"
+msgstr "Ошибка получения свидетельств"
+
+#: incident_management/api_v2/incidents/views.py:701
+msgid "Create notification evidence error"
+msgstr "Ошибка добавления свидетельства"
+
+#: incident_management/api_v2/incidents/views.py:719
+msgid "Get notification evidence error"
+msgstr "Ошибка получения свидетельства"
+
+#: incident_management/api_v2/organizations/views.py:55
+msgid "Organization create error"
+msgstr "Ошибка создания организации"
+
+#: incident_management/api_v2/organizations/views.py:69
+msgid "Get organizations error"
+msgstr "Ошибка получения организаций"
+
+#: incident_management/api_v2/organizations/views.py:86
+msgid "Get organization error"
+msgstr "Ошибка получения организации"
+
+#: incident_management/api_v2/organizations/views.py:98
+msgid "Organization remove error"
+msgstr "Ошибка удаления организации"
+
+#: incident_management/api_v2/organizations/views.py:116
+#: incident_management/api_v2/organizations/views.py:135
+msgid "Organization update error"
+msgstr "Ошибка обновления организации"
+
+#: incident_management/api_v2/recommendations/views.py:35
+msgid "Get recommendation samples error"
+msgstr "Ошибка получения шаблонов рекомендаций"
+
+#: incident_management/api_v2/recommendations/views.py:51
+msgid "Create recommendation sample error"
+msgstr "Ошибка создания шаблона рекомендации"
+
+#: incident_management/api_v2/reports/views.py:59
+msgid "Report create error"
+msgstr "Ошибка создания отчета"
+
+#: incident_management/api_v2/reports/views.py:76
+msgid "Report get error"
+msgstr "Ошибка получения отчета"
+
+#: incident_management/api_v2/reports/views.py:91
+msgid "Report delete error"
+msgstr "Ошибка удаления отчета"
+
+#: incident_management/api_v2/segments/views.py:27
+#: incident_management/organizations/services/segment/create_segment.py:16
+msgid "Create segment error"
+msgstr "Ошибка создания сегмента"
+
+#: incident_management/api_v2/segments/views.py:46
+msgid "Error while getting segments"
+msgstr "Ошибка получения сегментов"
+
+#: incident_management/api_v2/segments/views.py:63
+msgid "Error receiving the segment"
+msgstr "Ошибка получения сегмента"
+
+#: incident_management/api_v2/segments/views.py:74
+msgid "Segment remove error"
+msgstr "Ошибка удаления сегмента"
+
+#: incident_management/api_v2/segments/views.py:92
+#: incident_management/api_v2/siems/views.py:89
+msgid "SIEM update error"
+msgstr "Ошибка обновления SIEM"
+
+#: incident_management/api_v2/sensors/views.py:32
+#: incident_management/organizations/services/sensor/create_sensor.py:25
+msgid "Create sensor error"
+msgstr "Ошибка создания сенсора"
+
+#: incident_management/api_v2/sensors/views.py:51
+msgid "Error while getting sensors"
+msgstr "Ошибка при получении сенсоров"
+
+#: incident_management/api_v2/sensors/views.py:68
+msgid "Error receiving the sensor"
+msgstr "Ошибка получения сенсора"
+
+#: incident_management/api_v2/sensors/views.py:79
+msgid "Sensor remove error"
+msgstr "Ошибка удаления сенсора"
+
+#: incident_management/api_v2/sensors/views.py:97
+#: incident_management/api_v2/sensors/views.py:119
+msgid "Sensor update error"
+msgstr "Ошибка обновления сенсора"
+
+#: incident_management/api_v2/siems/views.py:24
+msgid "Create siem error"
+msgstr "Ошибка создания SIEM"
+
+#: incident_management/api_v2/siems/views.py:43
+msgid "Error while getting siems"
+msgstr "Ошибка получения SIEM"
+
+#: incident_management/api_v2/siems/views.py:60
+msgid "Error receiving the siem"
+msgstr "Ошибка получения SIEM"
+
+#: incident_management/api_v2/siems/views.py:71
+msgid "SIEM remove error"
+msgstr "Ошибка удаления SIEM"
+
+#: incident_management/api_v2/users/serializers.py:23
+msgid "Value may contain only alphabetical and numerical characters"
+msgstr "Пароль может содержать только буквы и цифры"
+
+#: incident_management/api_v2/users/views.py:36
+msgid "Create user error"
+msgstr "Ошибка создания пользователя"
+
+#: incident_management/api_v2/users/views.py:55
+msgid "Get users error"
+msgstr "Ошибка получения пользователей"
+
+#: incident_management/api_v2/users/views.py:72
+msgid "Get user error"
+msgstr "Ошибка получения пользователя"
+
+#: incident_management/api_v2/users/views.py:87
+#: incident_management/api_v2/users/views.py:123
+#: incident_management/api_v2/users/views.py:144
+msgid "User update error"
+msgstr "Ошибка обновления пользователя"
+
+#: incident_management/api_v2/users/views.py:100
+msgid "User remove error"
+msgstr "Ошибка удаления пользователя"
+
+#: incident_management/bulletins/apps.py:7
+#: incident_management/bulletins/models.py:67
+msgid "Bulletins"
+msgstr "Бюллетени"
+
+#: incident_management/bulletins/handlers/create.py:45
+#, python-format
+msgid "Bulletin with name %s already exists!"
+msgstr "Бюллетень с названием %s уже существует"
+
+#: incident_management/bulletins/handlers/create.py:52
+msgid "Invalid bulletin type"
+msgstr "Неверный тип бюллетеня"
+
+#: incident_management/bulletins/handlers/create.py:59
+#, python-format
+msgid "Bulletin with number %s already exists!"
+msgstr "Бюллетень с номером %s уже существует"
+
+#: incident_management/bulletins/handlers/delete.py:32
+#: incident_management/bulletins/handlers/get.py:62
+#: incident_management/bulletins/handlers/mark_read.py:32
+msgid "Bulletin not found"
+msgstr "Бюллетень не найден"
+
+#: incident_management/bulletins/handlers/mark_read.py:45
+#: incident_management/bulletins/services/mark_read.py:16
+msgid "Bulletin not downloaded"
+msgstr "Бюллетень не был скачан"
+
+#: incident_management/bulletins/models.py:9
+msgid "Threat Notice"
+msgstr "Уведомление об угрозе"
+
+#: incident_management/bulletins/models.py:10
+msgid "Vulnerability Notice"
+msgstr "Уведомление об уязвимости"
+
+#: incident_management/bulletins/models.py:16
+#: incident_management/bulletins/models.py:73
+#: incident_management/events/models.py:28
+#: incident_management/incidents/models.py:206
+#: incident_management/incidents/models.py:250
+#: incident_management/incidents/models.py:300
+#: incident_management/incidents/models.py:345
+#: incident_management/main/models.py:10 incident_management/main/models.py:31
+#: incident_management/notifs/models.py:22
+#: incident_management/users/models.py:81
+msgid "User"
+msgstr "Пользователь"
+
+#: incident_management/bulletins/models.py:23
+#: incident_management/incidents/models.py:86
+#: incident_management/main/models.py:18
+#: incident_management/ncircc/models.py:104
+#: incident_management/organizations/models.py:61
+#: incident_management/organizations/models.py:126
+#: incident_management/organizations/models.py:265
+#: incident_management/organizations/models.py:305
+#: incident_management/permissions/models.py:10
+msgid "Name"
+msgstr "Имя"
+
+#: incident_management/bulletins/models.py:30
+msgid "Bulletin type"
+msgstr "Тип бюллетеня"
+
+#: incident_management/bulletins/models.py:38
+#: incident_management/ncircc/models.py:36
+msgid "Registration number"
+msgstr "Регистрационный номер"
+
+#: incident_management/bulletins/models.py:43
+msgid "Registration date"
+msgstr "Дата регистрации"
+
+#: incident_management/bulletins/models.py:49
+#: incident_management/main/models.py:23
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:226
+msgid "File"
+msgstr "Файл"
+
+#: incident_management/bulletins/models.py:56
+msgid "Is NCCCI bulletin"
+msgstr "Бюллетель НКЦКИ"
+
+#: incident_management/bulletins/models.py:66
+#: incident_management/bulletins/models.py:82
+msgid "Bulletin"
+msgstr "Бюллетень"
+
+#: incident_management/bulletins/models.py:90
+msgid "Download datetime"
+msgstr "Время скачивания"
+
+#: incident_management/bulletins/models.py:96
+msgid "Mark as read datetime"
+msgstr "Время установки отметки о прочтении"
+
+#: incident_management/bulletins/models.py:102
+msgid "Bulletin viewing"
+msgstr "Просмотры бюллетеня"
+
+#: incident_management/bulletins/models.py:103
+msgid "Bulletin viewings"
+msgstr "Просмотры бюллетеней"
+
+#: incident_management/events/apps.py:7 incident_management/events/models.py:59
+#: incident_management/permissions/models.py:17
+msgid "Events"
+msgstr "События"
+
+#: incident_management/events/handlers/add_events_to_incident.py:50
+#: incident_management/events/handlers/delete_tmpevents.py:24
+#: incident_management/events/handlers/get_tmpevents.py:27
+msgid "Events with UUID not found"
+msgstr "События с UUID не найдены"
+
+#: incident_management/events/handlers/add_events_to_incident.py:57
+#: incident_management/events/handlers/get_events_from_elastic.py:64
+#: incident_management/events/handlers/save_mp_events_to_csv.py:45
+#: incident_management/incidents/handlers/actions_taken/change.py:38
+#: incident_management/incidents/handlers/actions_taken/get.py:47
+#: incident_management/incidents/handlers/actions_taken/get.py:69
+#: incident_management/incidents/handlers/add_incident_history_action.py:38
+#: incident_management/incidents/handlers/attachments/create.py:33
+#: incident_management/incidents/handlers/attachments/get.py:22
+#: incident_management/incidents/handlers/comments/create.py:31
+#: incident_management/incidents/handlers/comments/get.py:22
+#: incident_management/incidents/handlers/events/delete.py:32
+#: incident_management/incidents/handlers/get_available_operators.py:26
+#: incident_management/incidents/handlers/get_incident.py:29
+#: incident_management/incidents/handlers/history/get.py:22
+#: incident_management/incidents/handlers/recommendations/change.py:36
+#: incident_management/incidents/handlers/recommendations/change_order.py:37
+#: incident_management/incidents/handlers/recommendations/confirm.py:40
+#: incident_management/incidents/handlers/recommendations/get.py:62
+#: incident_management/incidents/handlers/recommendations/get.py:84
+#: incident_management/incidents/handlers/remove_incident.py:35
+#: incident_management/incidents/handlers/to_client.py:29
+#: incident_management/incidents/handlers/update_incident.py:49
+#: incident_management/ncircc/handlers/comments/create.py:50
+#: incident_management/ncircc/handlers/comments/get.py:40
+#: incident_management/ncircc/handlers/create_notification.py:73
+#: incident_management/ncircc/handlers/evidences/create.py:53
+#: incident_management/ncircc/handlers/evidences/get.py:41
+#: incident_management/ncircc/handlers/update_notification.py:78
+msgid "Incident not found"
+msgstr "Инцидент не найден"
+
+#: incident_management/events/handlers/add_events_to_incident.py:64
+#: incident_management/events/handlers/get_events_from_elastic.py:45
+#: incident_management/organizations/handlers/sensor/change_segments.py:31
+#: incident_management/organizations/handlers/sensor/get_sensor.py:22
+#: incident_management/organizations/handlers/sensor/remove.py:36
+#: incident_management/organizations/handlers/sensor/update.py:44
+msgid "Sensor not found"
+msgstr "Сенсор не найден"
+
+#: incident_management/events/handlers/add_events_to_incident.py:67
+msgid "Sensor is not active"
+msgstr "Неактивный сенсор"
+
+#: incident_management/events/handlers/add_events_to_incident.py:76
+#: incident_management/events/handlers/get_events_from_elastic.py:70
+#: incident_management/organizations/handlers/siem/get_siem.py:22
+msgid "Siem not found"
+msgstr "SIEM не найден"
+
+#: incident_management/events/handlers/add_events_to_incident.py:86
+msgid "Some events not found"
+msgstr "Некоторые события не найдены"
+
+#: incident_management/events/handlers/add_events_to_incident.py:96
+#: incident_management/events/handlers/get_events_from_elastic.py:76
+msgid "The sensor is not related with the segments of the organization"
+msgstr "Сенсор не связан с сегментами организации"
+
+#: incident_management/events/handlers/add_events_to_incident.py:102
+msgid "The siem is not related with the organization"
+msgstr "SIEM не связан с организацией"
+
+#: incident_management/events/handlers/add_events_to_incident.py:108
+#: incident_management/events/handlers/get_events_from_elastic.py:88
+msgid "The siem type must be ELASTIC"
+msgstr "SIEM должен быть ELASTIC"
+
+#: incident_management/events/handlers/get_events_from_elastic.py:82
+#: incident_management/reports/handlers/create_report.py:64
+msgid "Start datetime must be greater than end datetime"
+msgstr "Дата начала должна быть раньше, чем дата окончания"
+
+#: incident_management/events/handlers/get_tmpevents.py:32
+msgid "That page size is less than 1"
+msgstr "Размер страницы меньше 1"
+
+#: incident_management/events/handlers/get_tmpevents.py:38
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:53
+msgid "That page number is less than 1"
+msgstr "Номер страницы меньше 1"
+
+#: incident_management/events/handlers/save_mp_events_to_csv.py:54
+msgid "Event not found"
+msgstr "Событие не найдено"
+
+#: incident_management/events/handlers/save_mp_events_to_csv.py:59
+msgid "Event sensor not of type MP_SIEM"
+msgstr "Сенсор события не соответствует типу MP SIEM"
+
+#: incident_management/events/handlers/save_mp_events_to_csv.py:64
+msgid "Invalid file format"
+msgstr "Неверный формат файла"
+
+#: incident_management/events/handlers/save_mp_events_to_csv.py:87
+#, python-format
+msgid "Events from %(name)s.%(format)s"
+msgstr "События из %(name)s.%(format)s"
+
+#: incident_management/events/models.py:13
+#: incident_management/events/models.py:58
+msgid "Event"
+msgstr "Событие"
+
+#: incident_management/events/models.py:20
+#: incident_management/organizations/models.py:374
+msgid "Sensor"
+msgstr "Сенсор"
+
+#: incident_management/events/models.py:36
+#: incident_management/events/models.py:88
+msgid "SIEM event identifier"
+msgstr "Идентификатор события SIEM"
+
+#: incident_management/events/models.py:43
+#: incident_management/events/models.py:95
+msgid "SID"
+msgstr "SID"
+
+#: incident_management/events/models.py:49
+#: incident_management/events/models.py:70
+#: incident_management/events/models.py:101
+msgid "Data"
+msgstr "Дата"
+
+#: incident_management/events/models.py:78
+msgid "Event batch ID"
+msgstr "Событие пакета ID"
+
+#: incident_management/events/models.py:83
+msgid "Incident ID"
+msgstr "Идентификатор инцидент"
+
+#: incident_management/events/models.py:110
+msgid "TMP_Event"
+msgstr "TMP Event"
+
+#: incident_management/events/models.py:111
+msgid "TMP_Events"
+msgstr "TMP Events"
+
+#: incident_management/events/services/add_events_to_incident.py:124
+msgid "Error when receiving mp_events from elastic"
+msgstr "Ошибка при получении событий из elastic"
+
+#: incident_management/events/services/get_events_from_elastic.py:63
+#: incident_management/events/services/get_events_from_elastic.py:90
+msgid "Type sensor does not exist"
+msgstr "Тип датчика не существует"
+
+#: incident_management/events/services/get_tmpevents.py:15
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:58
+msgid "That page contains no results"
+msgstr "На этой странице нет результатов"
+
+#: incident_management/incidents/apps.py:7
+#: incident_management/incidents/models.py:193
+msgid "Incidents"
+msgstr "Инциденты"
+
+#: incident_management/incidents/handlers/actions_taken/change.py:44
+msgid "Some actions taken samples not found"
+msgstr "Шаблон предпринятых действий не найден"
+
+#: incident_management/incidents/handlers/actions_taken/get.py:75
+msgid "Action taken not found"
+msgstr "Предпринятые действия не найдены"
+
+#: incident_management/incidents/handlers/attachments/delete.py:33
+#: incident_management/incidents/handlers/attachments/get.py:38
+msgid "Incident attachment not found"
+msgstr "Прикрепленные файлы не найдены"
+
+#: incident_management/incidents/handlers/attachments/delete.py:40
+msgid "You cannot delete attachment if you are not the author"
+msgstr ""
+
+#: incident_management/incidents/handlers/comments/delete.py:33
+#: incident_management/incidents/handlers/comments/get.py:38
+msgid "Incident comment not found"
+msgstr "Комментарий не найден"
+
+#: incident_management/incidents/handlers/comments/delete.py:40
+msgid "You cannot delete comment if you are not the author"
+msgstr ""
+
+#: incident_management/incidents/handlers/create_incident.py:36
+#: incident_management/incidents/handlers/recommendations/create_sample.py:32
+#: incident_management/incidents/handlers/recommendations/get.py:32
+#: incident_management/notifs/handlers/update_settings.py:39
+#: incident_management/organizations/handlers/organization/change_siems.py:31
+#: incident_management/organizations/handlers/organization/create.py:59
+#: incident_management/organizations/handlers/organization/get_organization.py:22
+#: incident_management/organizations/handlers/organization/remove.py:30
+#: incident_management/organizations/handlers/organization/update.py:56
+#: incident_management/organizations/handlers/segment/create.py:33
+#: incident_management/reports/handlers/create_report.py:52
+msgid "Organization not found"
+msgstr "Организация не найдена"
+
+#: incident_management/incidents/handlers/create_incident.py:39
+#: incident_management/reports/handlers/create_report.py:55
+#, python-format
+msgid "Organization %s is not active!"
+msgstr "Организация %s не активна"
+
+#: incident_management/incidents/handlers/create_incident.py:46
+#: incident_management/incidents/handlers/update_incident.py:58
+msgid "Invalid incident type"
+msgstr "Неверный тип инцидента"
+
+#: incident_management/incidents/handlers/create_incident.py:57
+#: incident_management/incidents/handlers/update_incident.py:65
+msgid "Invalid incident severity level"
+msgstr "Неверный уровень важности инцидента"
+
+#: incident_management/incidents/handlers/events/delete.py:39
+msgid "Incident event not found"
+msgstr "Событие инцидента не найдено"
+
+#: incident_management/incidents/handlers/get_available_operators.py:36
+msgid "Cant find available operators for incident"
+msgstr "Не удается найти доступных операторов для инцидента"
+
+#: incident_management/incidents/handlers/get_user_incidents.py:20
+msgid "Error get user incidents"
+msgstr "Ошибка при получении пользователя"
+
+#: incident_management/incidents/handlers/pdf/get.py:118
+msgid "Hidden user"
+msgstr "Скрытый пользователь"
+
+#: incident_management/incidents/handlers/recommendations/change.py:46
+msgid "Some recommendation samples not found"
+msgstr "Некоторые шаблоны рекомендаций не найдены"
+
+#: incident_management/incidents/handlers/recommendations/change_order.py:43
+msgid "Some recommendations not found"
+msgstr "Некоторые шаблоны рекомендаций не найдены"
+
+#: incident_management/incidents/handlers/recommendations/confirm.py:46
+#: incident_management/incidents/handlers/recommendations/get.py:90
+msgid "Recommendation not found"
+msgstr "Рекомендация не найдена"
+
+#: incident_management/incidents/handlers/recommendations/confirm.py:50
+msgid "Recommendation already confirmed"
+msgstr "Рекомендация уже подтверждена"
+
+#: incident_management/incidents/handlers/remove_incident.py:39
+msgid "Incorrect status of incident"
+msgstr "Некорректный статус инцидента"
+
+#: incident_management/incidents/handlers/remove_incident.py:43
+msgid "You cannot delete incident registered in NCIRCC"
+msgstr "Невозможно удалить инцидент, зарегистрированный в НКЦКИ"
+
+#: incident_management/incidents/handlers/update_incident.py:71
+#: incident_management/incidents/handlers/update_incident.py:75
+msgid "Invalid incident status"
+msgstr "Неверный статус инцидента"
+
+#: incident_management/incidents/handlers/update_incident.py:81
+msgid "Invalid incident cm line"
+msgstr "Неверная ЦМ линия инцидента"
+
+#: incident_management/incidents/handlers/update_incident.py:84
+msgid "cm line can`t be lowered"
+msgstr "ЦМ линия не может быть снижена"
+
+#: incident_management/incidents/handlers/update_incident.py:91
+msgid "Assigned user not found"
+msgstr "Назначенный пользователь не найден"
+
+#: incident_management/incidents/models.py:11
+#: incident_management/utils/enums_human.py:26
+msgid "Involvement of a controlled resource in the malware infrastructure"
+msgstr "Вовлечение контролируемого ресурса в инфраструктуру вредоносного ПО"
+
+#: incident_management/incidents/models.py:12
+#: incident_management/utils/enums_human.py:27
+msgid "Resource slowdown as a result of a DDoS attack"
+msgstr "Замедление работы ресурсов в результате DDoS-атаки"
+
+#: incident_management/incidents/models.py:13
+#: incident_management/utils/enums_human.py:28
+msgid "Malware infection"
+msgstr "Заражение вредоносным ПО"
+
+#: incident_management/incidents/models.py:14
+#: incident_management/utils/enums_human.py:29
+msgid "Network traffic capture"
+msgstr "Перехват сетевого трафика"
+
+#: incident_management/incidents/models.py:15
+#: incident_management/utils/enums_human.py:30
+msgid "Using a controlled resource for phishing"
+msgstr "Использование контролируемого ресурса для фишинга"
+
+#: incident_management/incidents/models.py:16
+#: incident_management/utils/enums_human.py:31
+msgid "Account compromise"
+msgstr "Компрометация аккаунта"
+
+#: incident_management/incidents/models.py:17
+#: incident_management/utils/enums_human.py:32
+msgid "Unauthorized change of information"
+msgstr "Несанкционированное изменение информации"
+
+#: incident_management/incidents/models.py:18
+#: incident_management/utils/enums_human.py:33
+msgid "Unauthorized disclosure of information"
+msgstr "Несанкционированное раскрытие информации"
+
+#: incident_management/incidents/models.py:19
+#: incident_management/utils/enums_human.py:34
+msgid ""
+"Publication on the resource of information prohibited by the legislation of "
+"the Russian Federation"
+msgstr ""
+"Публикация на ресурсе информации, запрещенной законодательством Российской "
+"Федерации"
+
+#: incident_management/incidents/models.py:21
+#: incident_management/utils/enums_human.py:36
+msgid "Sending spam messages from a controlled resource"
+msgstr "Рассылка спам-сообщений с контролируемого ресурса"
+
+#: incident_management/incidents/models.py:22
+#: incident_management/utils/enums_human.py:37
+msgid "Successful exploitation of a vulnerability"
+msgstr "Успешная эксплуатация уязвимости"
+
+#: incident_management/incidents/models.py:23
+#: incident_management/utils/enums_human.py:38
+msgid "Violation of the information security policy"
+msgstr "Нарушение политики информационной безопасности"
+
+#: incident_management/incidents/models.py:24
+#: incident_management/utils/enums_human.py:39
+msgid "DDoS attack"
+msgstr "DDoS-атака"
+
+#: incident_management/incidents/models.py:25
+#: incident_management/utils/enums_human.py:40
+msgid "Failed authorization attempts"
+msgstr "Неудачные попытки авторизации"
+
+#: incident_management/incidents/models.py:26
+#: incident_management/utils/enums_human.py:41
+msgid "Attempts to introduce malware"
+msgstr "Попытки внедрения вредоносных программ"
+
+#: incident_management/incidents/models.py:27
+#: incident_management/utils/enums_human.py:42
+msgid "Attempts to exploit the vulnerability"
+msgstr "Попытки использования уязвимости"
+
+#: incident_management/incidents/models.py:28
+#: incident_management/utils/enums_human.py:43
+msgid "Publication of fraudulent information"
+msgstr "Публикация мошеннической информации"
+
+#: incident_management/incidents/models.py:29
+#: incident_management/utils/enums_human.py:44
+msgid "Network scanning"
+msgstr "Сканирование сети"
+
+#: incident_management/incidents/models.py:30
+#: incident_management/utils/enums_human.py:45
+msgid "Social engineering"
+msgstr "Социальная инженерия"
+
+#: incident_management/incidents/models.py:31
+#: incident_management/utils/enums_human.py:46
+msgid "Vulnerable resource"
+msgstr "Уязвимый ресурс"
+
+#: incident_management/incidents/models.py:35
+#: incident_management/utils/enums_human.py:14
+msgid "Critical"
+msgstr "Критический"
+
+#: incident_management/incidents/models.py:36
+#: incident_management/ncircc/enums.py:128
+#: incident_management/utils/enums_human.py:15
+msgid "High"
+msgstr "Высокий"
+
+#: incident_management/incidents/models.py:37
+#: incident_management/utils/enums_human.py:16
+msgid "Medium"
+msgstr "Средний"
+
+#: incident_management/incidents/models.py:38
+#: incident_management/ncircc/enums.py:129
+#: incident_management/utils/enums_human.py:17
+msgid "Low"
+msgstr "Низкий"
+
+#: incident_management/incidents/models.py:42
+#: incident_management/utils/enums_human.py:7
+msgid "In work on CM"
+msgstr "В работе у ЦМ"
+
+#: incident_management/incidents/models.py:43
+#: incident_management/utils/enums_human.py:8
+msgid "In work of client"
+msgstr "В работе у заказчика"
+
+#: incident_management/incidents/models.py:44
+#: incident_management/utils/enums_human.py:9
+msgid "Closing request"
+msgstr "Запрос на закрытие"
+
+#: incident_management/incidents/models.py:45
+#: incident_management/utils/enums_human.py:10
+msgid "Closed"
+msgstr "Закрыт"
+
+#: incident_management/incidents/models.py:49
+msgid "First line"
+msgstr "Первая линия"
+
+#: incident_management/incidents/models.py:50
+msgid "Second line"
+msgstr "Вторая линия"
+
+#: incident_management/incidents/models.py:56
+#: incident_management/notifs/models.py:13
+#: incident_management/organizations/models.py:243
+#: incident_management/organizations/models.py:257
+#: incident_management/organizations/models.py:389
+msgid "Organization"
+msgstr "Организация"
+
+#: incident_management/incidents/models.py:80
+msgid "HRID"
+msgstr "HRID"
+
+#: incident_management/incidents/models.py:91
+#: incident_management/permissions/models.py:13
+msgid "Description"
+msgstr "Описание"
+
+#: incident_management/incidents/models.py:97
+#: incident_management/organizations/models.py:345
+#: incident_management/permissions/models.py:12
+msgid "Type"
+msgstr "Тип"
+
+#: incident_management/incidents/models.py:102
+msgid "Severity level"
+msgstr "Уровень важности"
+
+#: incident_management/incidents/models.py:109
+msgid "Fixation date time"
+msgstr "Время фиксации"
+
+#: incident_management/incidents/models.py:115
+msgid "Registration date time"
+msgstr "Время регистрации"
+
+#: incident_management/incidents/models.py:122
+msgid "Last modified date time"
+msgstr "Время последнего изменения"
+
+#: incident_management/incidents/models.py:127
+#: incident_management/incidents/models.py:258
+msgid "Is confirmed"
+msgstr "Подтверждено"
+
+#: incident_management/incidents/models.py:132
+#: incident_management/permissions/models.py:14
+#: incident_management/permissions/models.py:51
+msgid "Status"
+msgstr "Статус"
+
+#: incident_management/incidents/models.py:137
+#: incident_management/notifs/admin_views.py:26
+#: incident_management/notifs/forms.py:43
+#: incident_management/organizations/models.py:142
+#: incident_management/organizations/models.py:350
+msgid "Is active"
+msgstr "Активен"
+
+#: incident_management/incidents/models.py:142
+msgid "Client access"
+msgstr "Заказчик подтвержден"
+
+#: incident_management/incidents/models.py:147
+msgid "CM line"
+msgstr "Линия ЦМ"
+
+#: incident_management/incidents/models.py:153
+msgid "Transmission date time"
+msgstr "Время передачи"
+
+#: incident_management/incidents/models.py:159
+msgid "Date time of last viewing by client"
+msgstr "Время последнего просмотра заказчиком"
+
+#: incident_management/incidents/models.py:165
+msgid "Date and time when incident status was changed to \"closed\""
+msgstr "Дата и время, когда статус инцидента был изменен на \"закрыт\""
+
+#: incident_management/incidents/models.py:194
+#: incident_management/incidents/models.py:282
+#: incident_management/ncircc/models.py:24
+msgid "Incident"
+msgstr "Инцидент"
+
+#: incident_management/incidents/models.py:199
+#: incident_management/incidents/models.py:270
+#: incident_management/main/models.py:39
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2115
+msgid "Text"
+msgstr "Текст"
+
+#: incident_management/incidents/models.py:215
+msgid "For organization"
+msgstr "Для организации"
+
+#: incident_management/incidents/models.py:232
+msgid "Recommendation"
+msgstr "Рекомендации"
+
+#: incident_management/incidents/models.py:241
+msgid "Recommendation sample"
+msgstr "Шаблон рекомендаций"
+
+#: incident_management/incidents/models.py:263
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:405
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:412
+msgid "Order"
+msgstr "Порядок"
+
+#: incident_management/incidents/models.py:291
+msgid "Action taken sample"
+msgstr "Шаблон предпринятых действий"
+
+#: incident_management/incidents/models.py:336
+msgid "Incident history"
+msgstr "История инцидента"
+
+#: incident_management/incidents/models.py:353
+msgid "Action"
+msgstr "Действие"
+
+#: incident_management/incidents/models.py:360
+msgid "Previous value"
+msgstr "Прошлое значение"
+
+#: incident_management/incidents/models.py:366
+msgid "New value"
+msgstr "Новое значение"
+
+#: incident_management/incidents/models.py:381
+msgid "Incident attachment"
+msgstr "Прикрепленные файлы"
+
+#: incident_management/incidents/models.py:389
+#: incident_management/ncircc/models.py:111
+msgid "Attachment description"
+msgstr "Описание прикрепленных файлов"
+
+#: incident_management/incidents/models.py:396
+#: incident_management/ncircc/models.py:125
+msgid "Attached file"
+msgstr "Прикрепленные файлы"
+
+#: incident_management/incidents/models.py:407
+msgid "Incident comment"
+msgstr "Комментарий инцидента"
+
+#: incident_management/incidents/models.py:416
+#: incident_management/ncircc/models.py:78
+msgid "Attached comment"
+msgstr "Прикрепить комментарий"
+
+#: incident_management/main/apps.py:13
+msgid "Main app"
+msgstr "Главное приложение"
+
+#: incident_management/main/templates/main/index.html:10
+msgid "Incident Management"
+msgstr "Incident Management"
+
+#: incident_management/main/templates/main/structure_changes.html:7
+#: incident_management/templates/notifs/push/add.html:36
+#: incident_management/templates/notifs/push/change.html:28
+msgid "Please correct the error below."
+msgstr "Пожалуйста, исправьте ошибку ниже."
+
+#: incident_management/main/templates/main/structure_changes.html:8
+msgid "Please correct the errors below."
+msgstr "Пожалуйста, исправьте ошибки ниже."
+
+#: incident_management/ncircc/apps.py:8
+#: incident_management/permissions/models.py:21
+msgid "NCIRCC"
+msgstr "НКЦКИ"
+
+#: incident_management/ncircc/enums.py:12
+msgid "Computer incident notification"
+msgstr "Уведомление о компьютерном инциденте"
+
+#: incident_management/ncircc/enums.py:13
+msgid "Computer attack notification"
+msgstr "Уведомление о компьютерной атаке"
+
+#: incident_management/ncircc/enums.py:14
+msgid "Vulnerability notification"
+msgstr "Уведомление об уязвимости"
+
+#: incident_management/ncircc/enums.py:57
+msgid "Measures taken"
+msgstr "Меры приняты"
+
+#: incident_management/ncircc/enums.py:58
+msgid "Responding measures are being taken"
+msgstr "Проводятся мероприятия по реагированию"
+
+#: incident_management/ncircc/enums.py:59
+msgid "Response activities resumed"
+msgstr "Возобновлены мероприятия по реагированию"
+
+#: incident_management/ncircc/enums.py:60
+msgid "Incident not confirmed"
+msgstr "Инцидент не подтвержден"
+
+#: incident_management/ncircc/enums.py:72
+msgid "CII object of the first category of significance"
+msgstr "Объект КИИ первой категории значимости"
+
+#: incident_management/ncircc/enums.py:73
+msgid "CII object of the second category of significance"
+msgstr "Объект КИИ второй категории значимости"
+
+#: incident_management/ncircc/enums.py:74
+msgid "CII object of the third category of significance"
+msgstr "Объект КИИ третьей категории значимости"
+
+#: incident_management/ncircc/enums.py:75
+msgid "CII object without significance category"
+msgstr "Объект КИИ без категории значимости"
+
+#: incident_management/ncircc/enums.py:76
+msgid "Information resource is not an object of CII"
+msgstr "Информационный ресурс не является объектом КИИ"
+
+#: incident_management/ncircc/enums.py:89
+msgid "Nuclear power"
+msgstr "Атомная энергетика"
+
+#: incident_management/ncircc/enums.py:90
+msgid "Banking and other areas of the financial market"
+msgstr "Банковская сфера и иные сферы финансового рынка"
+
+#: incident_management/ncircc/enums.py:91
+msgid "Mining industry"
+msgstr "Горнодобывающая промышленность"
+
+#: incident_management/ncircc/enums.py:92
+msgid "State/municipal authority"
+msgstr "Государственная/муниципальная власть"
+
+#: incident_management/ncircc/enums.py:93
+msgid "Health"
+msgstr "Здравоохранение"
+
+#: incident_management/ncircc/enums.py:94
+msgid "Metal industry"
+msgstr "Металлургическая промышленность"
+
+#: incident_management/ncircc/enums.py:95
+msgid "The science"
+msgstr "Наука"
+
+#: incident_management/ncircc/enums.py:96
+msgid "Defense industry"
+msgstr "Оборонная промышленность"
+
+#: incident_management/ncircc/enums.py:97
+msgid "Education"
+msgstr "Образование"
+
+#: incident_management/ncircc/enums.py:98
+msgid "Rocket and space industry"
+msgstr "Ракетно-космическая промышленность"
+
+#: incident_management/ncircc/enums.py:99
+msgid "Communication"
+msgstr "Связь"
+
+#: incident_management/ncircc/enums.py:100
+msgid "MASS MEDIA"
+msgstr "СМИ"
+
+#: incident_management/ncircc/enums.py:101
+msgid "Fuel and Energy Complex"
+msgstr "Топливно-энергетический комплекс"
+
+#: incident_management/ncircc/enums.py:102
+msgid "Transport"
+msgstr "Транспорт"
+
+#: incident_management/ncircc/enums.py:103
+msgid "Chemical industry"
+msgstr "Химическая промышленность"
+
+#: incident_management/ncircc/enums.py:104
+msgid "Other"
+msgstr "Иная"
+
+#: incident_management/ncircc/enums.py:130
+msgid "Missing"
+msgstr "Отсутствует"
+
+#: incident_management/ncircc/enums.py:141
+msgid "Malware control center"
+msgstr "Центр управления ВПО"
+
+#: incident_management/ncircc/enums.py:142
+msgid "Malware infrastructure element"
+msgstr "Элемент инфраструктуры ВПО"
+
+#: incident_management/ncircc/enums.py:143
+msgid "Source of distribution of malware"
+msgstr "Источник распространения ВПО"
+
+#: incident_management/ncircc/enums.py:144
+msgid "Type not defined"
+msgstr "Тип не определен"
+
+#: incident_management/ncircc/enums.py:156
+msgid "Created"
+msgstr "Создано"
+
+#: incident_management/ncircc/enums.py:157
+msgid "Registered"
+msgstr "Зарегистрировано"
+
+#: incident_management/ncircc/enums.py:158
+msgid "Supplement Required"
+msgstr "Требуется дополнение"
+
+#: incident_management/ncircc/enums.py:159
+msgid "NCIRCC verification"
+msgstr "Проверка НКЦКИ"
+
+#: incident_management/ncircc/enums.py:160
+msgid "The decision was made"
+msgstr "Принято решение"
+
+#: incident_management/ncircc/enums.py:161
+msgid "Sent to the archive"
+msgstr "Отправлено в архив"
+
+#: incident_management/ncircc/enums.py:175
+msgid "Microsoft operating systems and their components"
+msgstr "Операционные системы Microsoft и их компоненты"
+
+#: incident_management/ncircc/enums.py:176
+msgid "Unix-like operating systems and their components"
+msgstr "Unix-подобные операционные системы и их компоненты"
+
+#: incident_management/ncircc/enums.py:177
+msgid "Server software and its components"
+msgstr "Серверное программное обеспечение и его компоненты"
+
+#: incident_management/ncircc/enums.py:178
+msgid "Application software"
+msgstr "Прикладное программное обеспечение"
+
+#: incident_management/ncircc/enums.py:179
+msgid "Workstation and server platform components"
+msgstr "Компоненты рабочих станций и серверных платформ"
+
+#: incident_management/ncircc/enums.py:180
+msgid "Telecommunication equipment"
+msgstr "Телекоммуникационное оборудование"
+
+#: incident_management/ncircc/enums.py:181
+msgid "Information security tools"
+msgstr "Средства защиты информации"
+
+#: incident_management/ncircc/enums.py:182
+msgid "Periphery equipment"
+msgstr "Периферийное оборудование"
+
+#: incident_management/ncircc/enums.py:183
+msgid "Industrial hardware and software equipment"
+msgstr "Промышленное программно-аппаратное оборудование"
+
+#: incident_management/ncircc/enums.py:184
+msgid "Mobile platforms"
+msgstr "Мобильные платформы"
+
+#: incident_management/ncircc/enums.py:185
+msgid "IoT devices"
+msgstr "IoT устройства"
+
+#: incident_management/ncircc/enums.py:186
+msgid "Healthcare software and hardware"
+msgstr "Программное и аппаратное обеспечение в сфере здравоохранения"
+
+#: incident_management/ncircc/enums.py:187
+msgid "Science software and hardware"
+msgstr "Программное и аппаратное обеспечение в сфере науки"
+
+#: incident_management/ncircc/enums.py:188
+msgid "Transport software and hardware"
+msgstr "Программное и аппаратное обеспечение в сфере транспорта"
+
+#: incident_management/ncircc/enums.py:189
+msgid "Communication software and hardware"
+msgstr "Программное и аппаратное обеспечение в сфере связи"
+
+#: incident_management/ncircc/enums.py:190
+msgid "Energy software and hardware"
+msgstr "Программное и аппаратное обеспечение в сфере энергетики"
+
+#: incident_management/ncircc/enums.py:191
+msgid "Software and hardware in banking and other financial areas"
+msgstr "Программное и аппаратное обеспечение в банковской сфере и иных финансовых сферах"
+
+#: incident_management/ncircc/enums.py:192
+msgid "Software and hardware in the fuel and energy complex"
+msgstr "Программное и аппаратное обеспечение в топливно-энергетическом комплексе"
+
+#: incident_management/ncircc/enums.py:193
+msgid "Nuclear software and hardware"
+msgstr "Программное и аппаратное обеспечение в области атомной энергии"
+
+#: incident_management/ncircc/enums.py:194
+msgid "Software and hardware in the defense industry"
+msgstr "Программное и аппаратное обеспечение в оборонной промышленности"
+
+#: incident_management/ncircc/enums.py:195
+msgid "Software and hardware in the rocket and space industry"
+msgstr "Программное и аппаратное обеспечение в ракетно-космической промышленности"
+
+#: incident_management/ncircc/enums.py:196
+msgid "Software and hardware in the mining industry"
+msgstr "Программное и аппаратное обеспечение в горнодобывающей промышленности"
+
+#: incident_management/ncircc/enums.py:197
+msgid "Software and hardware in the metallurgical industry"
+msgstr "Программное и аппаратное обеспечение в металлургической промышленности"
+
+#: incident_management/ncircc/enums.py:198
+msgid "Software and hardware in the chemical industry"
+msgstr "Программное и аппаратное обеспечение в сфере химической промышленности"
+
+#: incident_management/ncircc/handlers/comments/create.py:55
+#: incident_management/ncircc/handlers/comments/get.py:45
+#: incident_management/ncircc/handlers/evidences/create.py:58
+#: incident_management/ncircc/handlers/evidences/get.py:46
+#: incident_management/ncircc/handlers/update_notification.py:86
+msgid "NCIRCC notification not found"
+msgstr "Уведомление НКЦКИ не найдено"
+
+#: incident_management/ncircc/handlers/comments/get.py:76
+msgid "NCIRCC notification comment not found"
+msgstr "Комментарий не найден"
+
+#: incident_management/ncircc/handlers/create_notification.py:76
+msgid "NCIRCC notification already exists"
+msgstr "Уведомление НКЦКИ уже существует"
+
+#: incident_management/ncircc/handlers/create_notification.py:106
+#: incident_management/ncircc/handlers/update_notification.py:110
+msgid "Invalid type of notification"
+msgstr "Неверный тип уведомления"
+
+#: incident_management/ncircc/handlers/evidences/get.py:77
+msgid "NCIRCC notification evidence not found"
+msgstr "Свидетельство не найдено"
+
+#: incident_management/ncircc/handlers/update_notification.py:89
+msgid "NCIRCC notification does not require supplement"
+msgstr "НКЦКИ уведомление не требует дополнений"
+
+#: incident_management/ncircc/models.py:15
+msgid "NCIRCC Notification author"
+msgstr "Автор уведомления НКЦКИ"
+
+#: incident_management/ncircc/models.py:30
+msgid "Notification UUID"
+msgstr "UUID уведомления"
+
+#: incident_management/ncircc/models.py:43
+msgid "Notification status"
+msgstr "Статус уведомления"
+
+#: incident_management/ncircc/models.py:50
+msgid "Notification data"
+msgstr "Данные уведомления"
+
+#: incident_management/ncircc/models.py:62
+msgid "NCIRCC Notification"
+msgstr "Уведомление НКЦКИ"
+
+#: incident_management/ncircc/models.py:63
+msgid "NCIRCC Notifications"
+msgstr "Уведомления НКЦКИ"
+
+#: incident_management/ncircc/models.py:69
+#: incident_management/ncircc/models.py:96
+msgid "Notification"
+msgstr "Уведомление"
+
+#: incident_management/ncircc/models.py:86
+msgid "NCIRCC comment author name"
+msgstr "Автор комментария уведомления НКЦКИ"
+
+#: incident_management/ncircc/models.py:117
+msgid "Source"
+msgstr "Источник"
+
+#: incident_management/ncircc/sdk/client.py:191
+msgid "Cant guess file MIME type to add"
+msgstr "Невозможно определить тип свидетельства для добавления"
+
+#: incident_management/ncircc/serializers/additional.py:48
+#: incident_management/ncircc/serializers/additional.py:88
+msgid "Value must be valid domain name"
+msgstr "Значение должно быть валидным доменным именем"
+
+#: incident_management/ncircc/serializers/main.py:205
+msgid "Related observables AS path required!"
+msgstr "Необходимо указать AS-Path до атакованной Автономной системы (ASN)!"
+
+#: incident_management/ncircc/serializers/main.py:214
+msgid "Related indicators ASN required!"
+msgstr "Необходимо указать номер подставной Автономной системы (ASN)!"
+
+#: incident_management/ncircc/serializers/main.py:223
+msgid "Related indicators AS name required!"
+msgstr "Необходимо указать наименование AS"
+
+#: incident_management/ncircc/serializers/main.py:232
+msgid "Related indicators LIR required!"
+msgstr "Необходимо указать наименование LIR"
+
+#: incident_management/ncircc/serializers/validation.py:29
+msgid "Invalid notification category"
+msgstr "Неверная категория оповещения"
+
+#: incident_management/ncircc/serializers/validation.py:42
+msgid "Invalid notification type"
+msgstr "Неверный тип уведомлениия"
+
+#: incident_management/ncircc/serializers/validation.py:74
+msgid "Related indicators vulnerabilities required!"
+msgstr "Необходимо добавить описание используемых уязвимостей!"
+
+#: incident_management/ncircc/serializers/validation.py:78
+msgid "Malware hash required!"
+msgstr "Необходимо добавить хэш сумму вредоносного модуля!"
+
+#: incident_management/ncircc/serializers/validation.py:82
+msgid "Related indicators email required!"
+msgstr "Необходимо добавить Email адрес вредоносной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:86
+msgid "Related indicators uri required!"
+msgstr "Необходимо добавить URI адрес вредоносной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:90
+msgid "Related indicators domain required!"
+msgstr "Необходимо добавить доменные имена вредоносной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:94
+msgid "Related indicators IPv6 required!"
+msgstr "Необходимо добавить IPv6 адрес вредоносной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:98
+msgid "Related indicators IPv4 required!"
+msgstr "Необходимо добавить IPv4 адрес вредоносной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:102
+msgid "Related observables services required!"
+msgstr "Необходимо добавить сетевые службы атакованной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:107
+msgid "Related observables emails required!"
+msgstr "Необходимо добавить Email адреса атакованной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:111
+msgid "Related observables uri required!"
+msgstr "Необходимо добавить URI адреса атакованной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:115
+msgid "Related observables domains required!"
+msgstr "Необходимо добавить доменные имена атакованной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:120
+msgid "Related observables IPv4 required!"
+msgstr "Необходимо добавить IPv4 адрес атакованной системы!"
+
+#: incident_management/ncircc/serializers/validation.py:124
+msgid "Related observables IPv6 required!"
+msgstr "Необходимо добавить IPv6 адрес атакованной системы!"
+
+#: incident_management/notifs/admin_views.py:23
+#: incident_management/notifs/forms.py:32
+msgid "Title"
+msgstr "Заголовок"
+
+#: incident_management/notifs/admin_views.py:24
+#: incident_management/notifs/forms.py:22
+msgid "Start datetime"
+msgstr "Время начала показа оповещения"
+
+#: incident_management/notifs/admin_views.py:25
+#: incident_management/notifs/forms.py:28
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1588
+msgid "Duration"
+msgstr "Длительность"
+
+#: incident_management/notifs/admin_views.py:27
+#: incident_management/notifs/forms.py:48
+msgid "Is dialog"
+msgstr "В виде модального окна"
+
+#: incident_management/notifs/admin_views.py:33
+#, python-format
+msgid "Select %s to change"
+msgstr ""
+
+#: incident_management/notifs/admin_views.py:33
+msgid "notification"
+msgstr "уведомление"
+
+#: incident_management/notifs/admin_views.py:141
+#, python-format
+msgid "Change %s"
+msgstr ""
+
+#: incident_management/notifs/admin_views.py:141
+#: incident_management/notifs/admin_views.py:171
+#: incident_management/notifs/admin_views.py:198
+msgid "push notification"
+msgstr "Всплывающее уведомление"
+
+#: incident_management/notifs/admin_views.py:171
+#, python-format
+msgid "Add %s"
+msgstr ""
+
+#: incident_management/notifs/admin_views.py:197
+msgid "Are you sure?"
+msgstr ""
+
+#: incident_management/notifs/admin_views.py:198
+#, fuzzy, python-format
+#| msgid "Delete"
+msgid "Delete %s"
+msgstr "Удалять"
+
+#: incident_management/notifs/apps.py:9
+#: incident_management/templates/notifs/push/add.html:25
+#: incident_management/templates/notifs/push/change.html:17
+#: incident_management/templates/notifs/push/confirm_delete.html:26
+#: incident_management/templates/notifs/push/list.html:26
+msgid "Notifications"
+msgstr "Оповещения"
+
+#: incident_management/notifs/forms.py:36
+msgid "Message"
+msgstr "Сообщение"
+
+#: incident_management/notifs/forms.py:70
+#: incident_management/notifs/handlers/push_notifications/update_push_notification_handler.py:25
+msgid "Start datetime field can not be changed in active notification"
+msgstr "Время начала показа уведомления нельзя изменить"
+
+#: incident_management/notifs/forms.py:81
+#: incident_management/notifs/handlers/push_notifications/update_push_notification_handler.py:26
+msgid "Start datetime + duration should be larger than current datetime"
+msgstr ""
+"Время начала показа уведомления + длительность должно быть больше текущего "
+"времени"
+
+#: incident_management/notifs/handlers/connect_channel.py:34
+msgid "Token not found"
+msgstr "Токен не найден"
+
+#: incident_management/notifs/handlers/connect_channel.py:45
+#: incident_management/users/handlers/change_organizations.py:34
+#: incident_management/users/handlers/get_user.py:23
+#: incident_management/users/handlers/remove_user.py:33
+#: incident_management/users/handlers/update_user.py:52
+msgid "User not found"
+msgstr "Пользователь не найден"
+
+#: incident_management/notifs/handlers/update_settings.py:44
+msgid "Invalid notifications channel"
+msgstr "Неверный канал получения оповещений"
+
+#: incident_management/notifs/handlers/update_settings.py:54
+msgid "Invalid message type"
+msgstr "Неверный тип сообщения"
+
+#: incident_management/notifs/models.py:30
+msgid "Settings"
+msgstr "Настройки"
+
+#: incident_management/notifs/models.py:45
+msgid "Notification settings"
+msgstr "Настройки оповещений"
+
+#: incident_management/notifs/templatetags/notification_tags.py:13
+#, python-format
+msgid "Incident name changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr "Название инцидента изменено: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:14
+#, python-format
+msgid "Incident name established to \"%s\"."
+msgstr "Установлено название инцидента: \"%s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:15
+#, python-format
+msgid "Incident description changed: \"%(new)s\"."
+msgstr "Описание инцидента изменено: \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:16
+#, python-format
+msgid "Incident description established to \"%(new)s\"."
+msgstr "Установлено описание инцидента: \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:17
+#, python-format
+msgid "Incident type changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr "Тип инцидента изменен: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:18
+#: incident_management/notifs/templatetags/notification_tags.py:40
+#, python-format
+msgid "Incident severity level changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr "Уровень важности инцидента изменен: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:19
+#: incident_management/notifs/templatetags/notification_tags.py:41
+#, python-format
+msgid "Incident line changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr "Линия инцидента изменена: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:20
+#, python-format
+msgid "Incident assigned user changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr ""
+"Ответственный за инцидент пользователь изменен: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:21
+#: incident_management/notifs/templatetags/notification_tags.py:43
+#, python-format
+msgid "Incident status changed: \"%(old)s\" -> \"%(new)s\"."
+msgstr "Статус инцидента изменен: \"%(old)s\" -> \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:22
+#: incident_management/notifs/templatetags/notification_tags.py:44
+#, python-format
+msgid "Added recommendations count: %(new)s."
+msgstr "Рекомендаций добавлено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:23
+#: incident_management/notifs/templatetags/notification_tags.py:45
+#, python-format
+msgid "Removed recommendations count: %(new)s."
+msgstr "Рекомендаций удалено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:24
+#: incident_management/notifs/templatetags/notification_tags.py:46
+#, python-format
+msgid "Added actions taken count: %(new)s."
+msgstr "Предпринятых действий добавлено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:25
+#: incident_management/notifs/templatetags/notification_tags.py:47
+#, python-format
+msgid "Removed actions taken count: %(new)s."
+msgstr "Предпринятых действий удалено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:26
+#, python-format
+msgid "Incident comment added: \"%(new)s\"."
+msgstr "Добавлен комментарий: \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:27
+#, python-format
+msgid "Incident comment removed: \"%(new)s\"."
+msgstr "Удален комментарий: \"%(new)s\"."
+
+#: incident_management/notifs/templatetags/notification_tags.py:28
+#: incident_management/notifs/templatetags/notification_tags.py:50
+#, python-format
+msgid "Added attachments count: %(new)s."
+msgstr "Файлов добавлено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:29
+#: incident_management/notifs/templatetags/notification_tags.py:51
+#, python-format
+msgid "Removed attachments count: %(new)s."
+msgstr "Файлов удалено: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:30
+#: incident_management/notifs/templatetags/notification_tags.py:52
+#, python-format
+msgid "Events added: %(new)s."
+msgstr "Добавлено событий: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:31
+#: incident_management/notifs/templatetags/notification_tags.py:53
+#, python-format
+msgid "Events removed: %(new)s."
+msgstr "Удалено событий: %(new)s."
+
+#: incident_management/notifs/templatetags/notification_tags.py:35
+#: incident_management/notifs/templatetags/notification_tags.py:36
+msgid "Incident name changed."
+msgstr "Название инцидента изменено."
+
+#: incident_management/notifs/templatetags/notification_tags.py:37
+#: incident_management/notifs/templatetags/notification_tags.py:38
+msgid "Incident description changed."
+msgstr "Описание инцидента изменено."
+
+#: incident_management/notifs/templatetags/notification_tags.py:39
+msgid "Incident type changed."
+msgstr "Тип инцидента изменен."
+
+#: incident_management/notifs/templatetags/notification_tags.py:42
+msgid "Incident assigned user changed."
+msgstr "Ответственный за инцидент пользователь изменен."
+
+#: incident_management/notifs/templatetags/notification_tags.py:48
+msgid "Incident comment added."
+msgstr "Добавлен комментарий."
+
+#: incident_management/notifs/templatetags/notification_tags.py:49
+msgid "Incident comment removed."
+msgstr "Удален комментарий."
+
+#: incident_management/notifs/templatetags/notification_tags.py:99
+#, python-format
+msgid "%(years)sy %(days)sd %(hours)sh %(minutes)sm"
+msgstr "%(years)sг %(days)sд %(hours)sч %(minutes)sм"
+
+#: incident_management/notifs/templatetags/notification_tags.py:102
+#, python-format
+msgid "%(days)sd %(hours)sh %(minutes)sm"
+msgstr "%(days)sд %(hours)sч %(minutes)sм"
+
+#: incident_management/notifs/templatetags/notification_tags.py:105
+#, python-format
+msgid "%(hours)sh %(minutes)sm"
+msgstr "%(hours)sч %(minutes)sм"
+
+#: incident_management/organizations/apps.py:7
+#: incident_management/organizations/models.py:242
+msgid "Organizations"
+msgstr "Организации"
+
+#: incident_management/organizations/handlers/organization/change_siems.py:37
+msgid "Some SIEMs not found"
+msgstr "Некоторые SIEM не найдены"
+
+#: incident_management/organizations/handlers/organization/change_users.py:34
+msgid "Some users not found"
+msgstr "Некоторые пользователи не найдены"
+
+#: incident_management/organizations/handlers/organization/change_users.py:66
+#, fuzzy, python-format
+#| msgid "This user can`t be assigned to many organizations"
+msgid "%s can`t be assigned to many organizations"
+msgstr "Этот пользователь не может быть назначен во многие организации"
+
+#: incident_management/organizations/handlers/organization/create.py:65
+#: incident_management/organizations/handlers/organization/update.py:63
+#: incident_management/organizations/handlers/organization/update.py:72
+#: incident_management/organizations/handlers/organization/update.py:81
+#, python-format
+msgid "Organization with name %s already exists"
+msgstr "Организация с названием %s уже существует"
+
+#: incident_management/organizations/handlers/organization/create.py:77
+#, python-format
+msgid "Organization with prefix %s already exists"
+msgstr "Организация с префиксом %s уже существует"
+
+#: incident_management/organizations/handlers/organization/create.py:84
+#: incident_management/organizations/handlers/organization/update.py:88
+msgid "Invalid contract duration"
+msgstr "Неверный срок действия контракта"
+
+#: incident_management/organizations/handlers/organization/create.py:96
+msgid "Bad organization structure file"
+msgstr "Неверный файл структуры организации"
+
+#: incident_management/organizations/handlers/organization/get_user_organizations.py:21
+msgid "Error get user organizations"
+msgstr "Ошибка получения организаций пользователей"
+
+#: incident_management/organizations/handlers/segment/create.py:40
+msgid "Segment with this name already exists"
+msgstr "Сегмент с таким именем уже существует"
+
+#: incident_management/organizations/handlers/segment/get_segment.py:22
+#: incident_management/organizations/handlers/segment/remove.py:31
+#: incident_management/organizations/handlers/segment/update.py:32
+#: incident_management/organizations/handlers/sensor/create.py:49
+msgid "Segment not found"
+msgstr "Сегменет не найден"
+
+#: incident_management/organizations/handlers/sensor/change_segments.py:35
+msgid "Sensor must have at least one associated segment"
+msgstr "Сенсор должен иметь как минимум один связанный сегмент"
+
+#: incident_management/organizations/handlers/sensor/change_segments.py:39
+msgid "Some segments not found"
+msgstr "Некоторые сегменты не найдены"
+
+#: incident_management/organizations/handlers/sensor/change_segments.py:56
+msgid "Sensor cannot be associated with segments of different organizations"
+msgstr "Сенсор не может быть связан с сегментами разных организаций"
+
+#: incident_management/organizations/handlers/sensor/create.py:54
+#, python-format
+msgid "Name length over %s"
+msgstr "Длина имени более %s"
+
+#: incident_management/organizations/handlers/sensor/create.py:57
+#: incident_management/organizations/handlers/sensor/update.py:51
+msgid "Sensor with this name already exists"
+msgstr "Сенсор с таким именем уже существует"
+
+#: incident_management/organizations/handlers/sensor/create.py:64
+#: incident_management/organizations/handlers/sensor/update.py:58
+msgid "Sensor with this identifier already exists"
+msgstr "Сенсор с таким идентификатором уже существует"
+
+#: incident_management/organizations/handlers/sensor/create.py:71
+#: incident_management/organizations/handlers/sensor/update.py:65
+msgid "Invalid sensor type"
+msgstr "Неверный тип сенсора"
+
+#: incident_management/organizations/handlers/sensor/create.py:78
+#, python-format
+msgid "Login length over %s"
+msgstr "Длина логина более %s"
+
+#: incident_management/organizations/handlers/sensor/create.py:84
+#, python-format
+msgid "Password length over %s"
+msgstr "Длина пароля более %s"
+
+#: incident_management/organizations/handlers/sensor/create.py:100
+#, python-brace-format
+msgid "{exc}"
+msgstr "{exc}"
+
+#: incident_management/organizations/handlers/sensor/create.py:107
+msgid "Both login and password fields are required."
+msgstr "Необходимо указать оба значения логин и пароль"
+
+#: incident_management/organizations/handlers/siem/create.py:42
+msgid "SIEM with this name already exists"
+msgstr "SIEM с таким именем уже существует"
+
+#: incident_management/organizations/handlers/siem/create.py:51
+msgid "SIEM with this ID already exists"
+msgstr "SIEM с таким ID уже существует"
+
+#: incident_management/organizations/handlers/siem/create.py:58
+#: incident_management/organizations/handlers/siem/update.py:67
+msgid "Invalid SIEM type"
+msgstr "Неверный тип SIEM"
+
+#: incident_management/organizations/handlers/siem/remove.py:36
+#: incident_management/organizations/handlers/siem/update.py:44
+msgid "SIEM not found"
+msgstr "SIEM не найден"
+
+#: incident_management/organizations/handlers/siem/update.py:51
+#, python-format
+msgid "SIEM with name %s already exists"
+msgstr "SIEM с именем %s уже существует"
+
+#: incident_management/organizations/handlers/siem/update.py:60
+#, python-format
+msgid "SIEM with ID %s already exists"
+msgstr "SIEM с ID %s уже существует"
+
+#: incident_management/organizations/models.py:14
+#: incident_management/organizations/models.py:66
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1906
+msgid "IP address"
+msgstr "IP адрес"
+
+#: incident_management/organizations/models.py:20
+msgid "Port"
+msgstr "Порт"
+
+#: incident_management/organizations/models.py:26
+#: incident_management/organizations/models.py:72
+#: incident_management/organizations/models.py:320
+msgid "Login"
+msgstr "Логин"
+
+#: incident_management/organizations/models.py:32
+#: incident_management/organizations/models.py:77
+#: incident_management/organizations/models.py:327
+msgid "Password"
+msgstr "Пароль"
+
+#: incident_management/organizations/models.py:41
+msgid "Proxies"
+msgstr "Прокси"
+
+#: incident_management/organizations/models.py:42
+#: incident_management/organizations/models.py:53
+msgid "Proxy"
+msgstr "Прокси"
+
+#: incident_management/organizations/models.py:68
+msgid "Url"
+msgstr "Url"
+
+#: incident_management/organizations/models.py:82
+msgid "SIEM identifier"
+msgstr "Идентификатор SIEM"
+
+#: incident_management/organizations/models.py:89
+msgid "SIEM type"
+msgstr "Тип SIEM"
+
+#: incident_management/organizations/models.py:104
+msgid "Siems"
+msgstr "SIEMs"
+
+#: incident_management/organizations/models.py:105
+msgid "Siem"
+msgstr "SIEM"
+
+#: incident_management/organizations/models.py:111
+msgid "Parent organization"
+msgstr "Родительская организация"
+
+#: incident_management/organizations/models.py:120
+msgid "SIEM"
+msgstr "SIEM"
+
+#: incident_management/organizations/models.py:133
+msgid "Hrid name"
+msgstr "Hrid имя"
+
+#: incident_management/organizations/models.py:148
+msgid "Short name"
+msgstr "Короткое имя"
+
+#: incident_management/organizations/models.py:155
+msgid "Full name"
+msgstr "Полное имя"
+
+#: incident_management/organizations/models.py:159
+msgid "Contract duration (months)"
+msgstr "Длительность контракта (месяцы)"
+
+#: incident_management/organizations/models.py:167
+msgid "INN"
+msgstr "ИНН"
+
+#: incident_management/organizations/models.py:171
+msgid "Contract"
+msgstr "Контрак"
+
+#: incident_management/organizations/models.py:178
+msgid "Contract date"
+msgstr "Дата контракта"
+
+#: incident_management/organizations/models.py:183
+msgid "Is NCCCI"
+msgstr "НКЦКИ"
+
+#: incident_management/organizations/models.py:187
+msgid "IM external IP"
+msgstr "Внешний IP"
+
+#: incident_management/organizations/models.py:275
+#: incident_management/organizations/models.py:299
+msgid "Segments"
+msgstr "Сегменты"
+
+#: incident_management/organizations/models.py:276
+msgid "Segment"
+msgstr "Сегмент"
+
+#: incident_management/organizations/models.py:312
+msgid "Sensor IP address"
+msgstr "IP адрес сенсора"
+
+#: incident_management/organizations/models.py:315
+msgid "Sensor url address"
+msgstr "URL адрес сенсора"
+
+#: incident_management/organizations/models.py:334
+msgid "Home net"
+msgstr "Домашняя сеть"
+
+#: incident_management/organizations/models.py:339
+msgid "Identifier"
+msgstr "Идентификатор"
+
+#: incident_management/organizations/models.py:373
+msgid "Sensors"
+msgstr "Сенсоры"
+
+#: incident_management/organizations/models.py:380
+msgid "User of organization"
+msgstr "Пользователь организации"
+
+#: incident_management/organizations/services/organization/organization_from_structure.py:90
+#, python-format
+msgid "Sensor with identifier %s already exists"
+msgstr "Сенсор с идентификатором %s уже существует"
+
+#: incident_management/organizations/services/organization/organization_from_structure.py:116
+#, python-format
+msgid "Invalid sensor type: %s"
+msgstr "Неверный тип сенсора: %s"
+
+#: incident_management/permissions/admin.py:16
+msgid "Mark can read"
+msgstr "Отметить, что может читать"
+
+#: incident_management/permissions/admin.py:23
+msgid "Unmark can read"
+msgstr "Отметить, что не может читать"
+
+#: incident_management/permissions/admin.py:30
+msgid "Mark can create"
+msgstr "Отметить, что может создавать"
+
+#: incident_management/permissions/admin.py:37
+msgid "Unmark can create"
+msgstr "Отметить, что не может создавать"
+
+#: incident_management/permissions/admin.py:44
+msgid "Mark can update"
+msgstr "Отметить, что может обновлять"
+
+#: incident_management/permissions/admin.py:51
+msgid "Unmark can update"
+msgstr "Отметить, что не может обновлять"
+
+#: incident_management/permissions/admin.py:58
+msgid "Mark can delete"
+msgstr "Отметить, что может удалять"
+
+#: incident_management/permissions/admin.py:65
+msgid "Unmark can delete"
+msgstr "Отметить, что не может удалять"
+
+#: incident_management/permissions/admin.py:111
+msgid "Mark public"
+msgstr "Сделать публичными"
+
+#: incident_management/permissions/admin.py:118
+msgid "Mark private"
+msgstr "Сделать приватными"
+
+#: incident_management/permissions/apps.py:9
+#: incident_management/users/admin.py:30
+msgid "Permissions"
+msgstr "Разрешения"
+
+#: incident_management/permissions/decorators.py:14
+msgid "User has no permissions to do this"
+msgstr "Пользователь не имеет разрешений для этих действий"
+
+#: incident_management/permissions/models.py:11
+msgid "Severity"
+msgstr "Уровень важности"
+
+#: incident_management/permissions/models.py:15
+msgid "CM Line"
+msgstr "ЦМ линия"
+
+#: incident_management/permissions/models.py:16
+msgid "Operator"
+msgstr "Оператор"
+
+#: incident_management/permissions/models.py:18
+msgid "Recommendations"
+msgstr "Рекомендации"
+
+#: incident_management/permissions/models.py:19
+msgid "Actions taken"
+msgstr "Предпринятое действие"
+
+#: incident_management/permissions/models.py:20
+msgid "Recommendations confirmation"
+msgstr "Подтверждение рекомендации"
+
+#: incident_management/permissions/models.py:25
+msgid "Center of monitoring"
+msgstr "Центр мониторинга"
+
+#: incident_management/permissions/models.py:26
+msgid "Customer"
+msgstr "Заказчик"
+
+#: incident_management/permissions/models.py:31
+msgid "Entity"
+msgstr "Сущность"
+
+#: incident_management/permissions/models.py:36
+msgid "Author"
+msgstr "Автор"
+
+#: incident_management/permissions/models.py:41
+msgid "Role"
+msgstr "Роль"
+
+#: incident_management/permissions/models.py:46
+msgid "Current line"
+msgstr "Текущая линия"
+
+#: incident_management/permissions/models.py:56
+msgid "Create"
+msgstr "Создать"
+
+#: incident_management/permissions/models.py:61
+msgid "Read"
+msgstr "Читать"
+
+#: incident_management/permissions/models.py:66
+msgid "Update"
+msgstr "Обновлять"
+
+#: incident_management/permissions/models.py:71
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:417
+msgid "Delete"
+msgstr "Удалять"
+
+#: incident_management/permissions/models.py:78
+msgid "Address"
+msgstr "Адрес"
+
+#: incident_management/permissions/models.py:85
+msgid "Is private domain"
+msgstr "Домен является приватным"
+
+#: incident_management/permissions/models.py:102
+msgid "Exchange parent domain"
+msgstr "Основной домен MX сервера"
+
+#: incident_management/permissions/models.py:110
+msgid "Exchange address"
+msgstr "Адрес MX сервера"
+
+#: incident_management/reports/apps.py:7
+msgid "Reports"
+msgstr "Отчеты"
+
+#: incident_management/reports/handlers/create_report.py:43
+msgid "Invalid report step"
+msgstr "Неверный шаг отчета"
+
+#: incident_management/reports/handlers/create_report.py:58
+#, python-format
+msgid "Organization %s is branch!"
+msgstr "Организация %s является филиалом"
+
+#: incident_management/reports/handlers/get_report.py:21
+#: incident_management/reports/handlers/remove_report.py:40
+#: incident_management/reports/tasks/doc_report_task.py:46
+msgid "Report not found"
+msgstr "Отчет не найден"
+
+#: incident_management/reports/handlers/remove_report.py:31
+msgid "Remove report error"
+msgstr "Ошибка удаления отчета"
+
+#: incident_management/reports/models.py:23
+msgid "Elastic device"
+msgstr "Elastic устройство"
+
+#: incident_management/reports/models.py:24
+msgid "Elastic devices"
+msgstr "Elastic устройства"
+
+#: incident_management/reports/models.py:31
+msgid "Success"
+msgstr "Успешно"
+
+#: incident_management/reports/models.py:32
+msgid "Pending"
+msgstr "В ожидании"
+
+#: incident_management/reports/models.py:33
+msgid "Failure"
+msgstr "Ошибка"
+
+#: incident_management/reports/models.py:34
+msgid "Started"
+msgstr "Запущено"
+
+#: incident_management/reports/models.py:47
+#: incident_management/reports/models.py:48
+msgid "The date is included"
+msgstr "Дата включена"
+
+#: incident_management/reports/models.py:60
+msgid "Report name"
+msgstr "Имя отчета"
+
+#: incident_management/reports/models.py:64
+msgid "Columns in a graph are grouped by this value"
+msgstr "Столбцы в графике группируются по этому значению"
+
+#: incident_management/reports/models.py:71
+msgid "Docx report"
+msgstr "Отчет docx"
+
+#: incident_management/reports/models.py:72
+msgid "Docx reports"
+msgstr "Отчеты docx"
+
+#: incident_management/reports/models.py:82
+msgid "Incidents report result"
+msgstr "Результат отчета инциндента"
+
+#: incident_management/reports/models.py:83
+msgid "Incidents report results"
+msgstr "Результаты отчета о инцидентах"
+
+#: incident_management/reports/services/generators/doc_report_generator.py:44
+#, python-format
+msgid "No template for report step = %i"
+msgstr "Нет шаблона для шага отчета = %i"
+
+#: incident_management/reports/services/generators/doc_report_generator.py:60
+msgid "Unpredicted error in GetIncidentsDataForReport service"
+msgstr "Непредвиденная ошибка в сервисе получения данных для отчета"
+
+#: incident_management/reports/services/generators/doc_report_generator.py:92
+#, python-format
+msgid "Multiple elastic siems found for %s"
+msgstr "elastic siems найдены для %s"
+
+#: incident_management/reports/services/generators/doc_report_generator.py:96
+#, python-format
+msgid "No elastic siems found for %s"
+msgstr "Не найдены elastic siems для %s"
+
+#: incident_management/reports/services/generators/doc_report_generator.py:102
+msgid "Unpredicted error in GetterEventsDataForReport service"
+msgstr "Непредвиденная ошибка в серсисе получения событий для отчета"
+
+#: incident_management/telegram/commands/handlers/base.py:44
+msgid "« Back"
+msgstr "« Назад"
+
+#: incident_management/templates/notifs/push/add.html:24
+#: incident_management/templates/notifs/push/change.html:16
+#: incident_management/templates/notifs/push/confirm_delete.html:25
+#: incident_management/templates/notifs/push/list.html:25
+msgid "Home"
+msgstr "Начало"
+
+#: incident_management/templates/notifs/push/confirm_delete.html:39
+msgid "Yes, I’m sure"
+msgstr ""
+
+#: incident_management/templates/notifs/push/list.html:47
+msgid "Search"
+msgstr ""
+
+#: incident_management/users/admin.py:16
+msgid "Recheck emails"
+msgstr "Перепроверить почты"
+
+#: incident_management/users/admin.py:28
+msgid "Personal info"
+msgstr "Персональная информация"
+
+#: incident_management/users/admin.py:33
+msgid "Important dates"
+msgstr "Важные даты"
+
+#: incident_management/users/apps.py:7 incident_management/users/models.py:80
+msgid "Users"
+msgstr "Пользователи"
+
+#: incident_management/users/handlers/change_organizations.py:41
+msgid "Some organizations not found"
+msgstr "Некоторые организации не найдены"
+
+#: incident_management/users/handlers/change_organizations.py:53
+msgid "This user can`t be assigned to many organizations"
+msgstr "Этот пользователь не может быть назначен во многие организации"
+
+#: incident_management/users/handlers/create_user.py:59
+msgid "Invalid role"
+msgstr "Неверная роль"
+
+#: incident_management/users/handlers/create_user.py:66
+msgid "The two password fields didn't match"
+msgstr "Поля пароля не совпадают"
+
+#: incident_management/users/handlers/create_user.py:74
+#: incident_management/users/handlers/update_user.py:69
+msgid "User with this email already exists"
+msgstr "Пользователь с таким email уже существует"
+
+#: incident_management/users/handlers/create_user.py:84
+#: incident_management/users/handlers/update_user.py:79
+msgid "User with this phone already exists"
+msgstr "Пользователь с таким телефоном уже существует"
+
+#: incident_management/users/handlers/get_related_users.py:20
+msgid "Error get users"
+msgstr "Ошибка получения пользователей"
+
+#: incident_management/users/handlers/update_user.py:86
+msgid "Invalid user role"
+msgstr "Неверная роль пользователя"
+
+#: incident_management/users/managers.py:16
+msgid "The Email must be set"
+msgstr "Электронная почта должна быть установлена"
+
+#: incident_management/users/managers.py:34
+msgid "Superuser must have is_superuser=True."
+msgstr "Суперпользователь должен иметь is_superuser=True."
+
+#: incident_management/users/models.py:40
+msgid "password"
+msgstr "пароль"
+
+#: incident_management/users/models.py:41
+msgid "email address"
+msgstr "электронная почта"
+
+#: incident_management/users/models.py:42
+msgid "email private"
+msgstr "приватная почта"
+
+#: incident_management/users/models.py:44
+msgid "telegram chat id"
+msgstr "Идентификатор чата telegram"
+
+#: incident_management/users/services/get_related_users.py:32
+msgid "No such user role"
+msgstr "Нет такой роли пользователя"
+
+#: incident_management/users/validators/password.py:16
+#, python-format
+msgid "This password is too long. It must contain no more than %d characters."
+msgstr "Пароль слишком длинный. Пароль должен содержать не более %d символов"
+
+#: incident_management/users/validators/password.py:22
+#, python-format
+msgid "Your password should contain %d or less characters."
+msgstr ""
+
+#: incident_management/users/validators/password.py:31
+msgid ""
+"Password may contain only alphabetical, numerical characters or special "
+"symbols."
+msgstr "Пароль может содержать только буквенные, числовые и специальные символы"
+
+#: incident_management/users/validators/password.py:37
+msgid ""
+"Your password should contain only alphabetic, numeric or special symbols "
+"characters."
+msgstr ""
+
+#: incident_management/users/validators/password.py:48
+#, fuzzy
+#| msgid "The two password fields didn't match"
+msgid "This password is not mix-case."
+msgstr "Пароль должен содержать строчные и заглавные буквы"
+
+#: incident_management/users/validators/password.py:54
+msgid "Your password should contain lowercase character as well as uppercase)"
+msgstr ""
+
+#: incident_management/users/validators/password.py:62
+msgid "This password doesn't have at least one numeric character."
+msgstr "Пароль должен содержать хотя бы одну цифру"
+
+#: incident_management/users/validators/password.py:68
+msgid "Your password should contain at least one numeric character."
+msgstr ""
+
+#: incident_management/users/validators/password.py:76
+msgid "This password doesn't have at least one special character."
+msgstr "Пароль должен содержать хотя бы один специальный символ"
+
+#: incident_management/users/validators/password.py:82
+#, python-format
+msgid "Your password should contain at least one special character from %s."
+msgstr ""
+
+#: incident_management/users/validators/password.py:100
+msgid "This password matches with some older user's password."
+msgstr "Пароль не должен совпадать с предыдущими паролями из учетной записи"
+
+#: incident_management/users/validators/password.py:106
+msgid "Create new password that differs from older passwords."
+msgstr ""
+
+#: incident_management/utils/enums_human.py:21
+msgid "Confirmed"
+msgstr "Подтверждено"
+
+#: incident_management/utils/enums_human.py:22
+msgid "Unconfirmed"
+msgstr "Не подтверждено"
+
+#: incident_management/utils/enums_human.py:50
+msgid "ids-ns"
+msgstr "ids-ns"
+
+#: incident_management/utils/enums_human.py:51
+msgid "ids-hs"
+msgstr "ids-hs"
+
+#: incident_management/utils/enums_human.py:52
+msgid "mp-siem"
+msgstr "mp-siem"
+
+#: incident_management/ws_v2/apps.py:7
+msgid "Socket app"
+msgstr "Socket app"
+
+#: incident_management/ws_v2/consumer.py:159
+msgid "You have no permissions to open incident"
+msgstr "У вас нет прав на открытие инцидента"
+
+#: venv/lib/python3.8/site-packages/_pytest/config/argparsing.py:383
+#, python-format
+msgid "ambiguous option: %(option)s could match %(matches)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/alabaster/layout.html:98
+#, fuzzy
+#| msgid "Vulnerable resource"
+msgid "Page source"
+msgstr "Уязвимый ресурс"
+
+#: venv/lib/python3.8/site-packages/alabaster/navigation.html:1
+#, fuzzy
+#| msgid "Organization"
+msgid "Navigation"
+msgstr "Организация"
+
+#: venv/lib/python3.8/site-packages/django/contrib/messages/apps.py:7
+#, fuzzy
+#| msgid "Message"
+msgid "Messages"
+msgstr "Сообщение"
+
+#: venv/lib/python3.8/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/contrib/syndication/apps.py:7
+#, fuzzy
+#| msgid "Education"
+msgid "Syndication"
+msgstr "Образование"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/paginator.py:51
+#, fuzzy
+#| msgid "That page number is less than 1"
+msgid "That page number is not an integer"
+msgstr "Номер страницы меньше 1"
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:93
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:675
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:150
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:161
+#, fuzzy
+#| msgid "email address"
+msgid "Enter a valid email address."
+msgstr "электронная почта"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.8/site-packages/django/core/validators.py:262
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:269
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:278
+#: venv/lib/python3.8/site-packages/django/core/validators.py:288
+#: venv/lib/python3.8/site-packages/django/core/validators.py:311
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:296
+#: venv/lib/python3.8/site-packages/django/core/validators.py:312
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:306
+#: venv/lib/python3.8/site-packages/django/core/validators.py:310
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:340
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:346
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:379
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:388
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:398
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:413
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:432
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:292
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:439
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:444
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:506
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/core/validators.py:559
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1210
+#: venv/lib/python3.8/site-packages/django/forms/models.py:768
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/base.py:1212
+#, fuzzy, python-format
+#| msgid "Sensor with this name already exists"
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "Сенсор с таким именем уже существует"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:100
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:101
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:102
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:103
+#, fuzzy, python-format
+#| msgid "Sensor with this name already exists"
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "Сенсор с таким именем уже существует"
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:107
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:126
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:958
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:959
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:961
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1002
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1096
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1145
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1147
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1290
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1150
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1288
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1292
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1296
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1444
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1446
+#, fuzzy
+#| msgid "Registration number"
+msgid "Decimal number"
+msgstr "Регистрационный номер"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1585
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1638
+#, fuzzy
+#| msgid "email address"
+msgid "Email address"
+msgstr "электронная почта"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1661
+#, fuzzy
+#| msgid "File"
+msgid "File path"
+msgstr "Файл"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1727
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1729
+#, fuzzy
+#| msgid "Registration number"
+msgid "Floating point number"
+msgstr "Регистрационный номер"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1767
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1769
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1852
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1867
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1875
+#, fuzzy
+#| msgid "IP address"
+msgid "IPv4 address"
+msgstr "IP адрес"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1986
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1987
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:1989
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2043
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2056
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2069
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2083
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2181
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2183
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2186
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2312
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2334
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2399
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/__init__.py:2401
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/files.py:375
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/json.py:18
+#: venv/lib/python3.8/site-packages/django_jsonfield_backport/models.py:59
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/json.py:20
+#: venv/lib/python3.8/site-packages/django_jsonfield_backport/models.py:61
+#, fuzzy
+#| msgid "Value must be valid domain name"
+msgid "Value must be valid JSON."
+msgstr "Значение должно быть валидным доменным именем"
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:790
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:792
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1045
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1099
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1100
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/db/models/fields/related.py:1142
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.8/site-packages/django/forms/boundfield.py:150
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:54
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:402
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1143
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:426
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1144
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:454
+#, fuzzy
+#| msgid "Mark as read datetime"
+msgid "Enter a valid date/time."
+msgstr "Время установки отметки о прочтении"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:488
+#, fuzzy
+#| msgid "Invalid contract duration"
+msgid "Enter a valid duration."
+msgstr "Неверный срок действия контракта"
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:489
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:549
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:550
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:551
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:553
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:556
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:617
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:779
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:869
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1309
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:870
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:985
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1308
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:986
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1202
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/fields.py:1232
+#: venv/lib/python3.8/site-packages/django_jsonfield_backport/forms.py:51
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:76
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/forms.py:203
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:370
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/formsets.py:377
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:763
+#, fuzzy, python-format
+#| msgid "Please correct the error below."
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "Пожалуйста, исправьте ошибку ниже."
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:767
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:773
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:782
+#, fuzzy
+#| msgid "Please correct the errors below."
+msgid "Please correct the duplicate values below."
+msgstr "Пожалуйста, исправьте ошибки ниже."
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1109
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1193
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/models.py:1311
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/utils.py:172
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:403
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:404
+#, fuzzy
+#| msgid "Current line"
+msgid "Currently"
+msgstr "Текущая линия"
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:405
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:714
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:715
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/forms/widgets.py:716
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:817
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:846
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:863
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:865
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:867
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:869
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:871
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/template/defaultfilters.py:873
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:66
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:67
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:72
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:73
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:146
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dateformat.py:148
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.8/site-packages/tornado/locale.py:295
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.8/site-packages/tornado/locale.py:296
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.8/site-packages/tornado/locale.py:297
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.8/site-packages/tornado/locale.py:298
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:6
+#: venv/lib/python3.8/site-packages/tornado/locale.py:299
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+#: venv/lib/python3.8/site-packages/tornado/locale.py:300
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:7
+#: venv/lib/python3.8/site-packages/tornado/locale.py:301
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+#, fuzzy
+#| msgid "Status"
+msgid "Sat"
+msgstr "Статус"
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:281
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:282
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:283
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:284
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:285
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:14
+#: venv/lib/python3.8/site-packages/tornado/locale.py:286
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+#: venv/lib/python3.8/site-packages/tornado/locale.py:287
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+#: venv/lib/python3.8/site-packages/tornado/locale.py:288
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+#: venv/lib/python3.8/site-packages/tornado/locale.py:289
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+#: venv/lib/python3.8/site-packages/tornado/locale.py:290
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:15
+#: venv/lib/python3.8/site-packages/tornado/locale.py:291
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:16
+#: venv/lib/python3.8/site-packages/tornado/locale.py:292
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:19
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:20
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:71
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/text.py:240
+#, fuzzy
+#| msgid "Port"
+msgid "or"
+msgstr "Порт"
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.8/site-packages/django/utils/text.py:259
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:94
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/utils/timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:61
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:111
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:338
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:594
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/dates.py:628
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/generic/list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:42
+#, fuzzy, python-format
+#| msgid "Type sensor does not exist"
+msgid "“%(path)s” does not exist"
+msgstr "Тип датчика не существует"
+
+#: venv/lib/python3.8/site-packages/django/views/static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django/views/templates/default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/django_jsonfield_backport/apps.py:14
+msgid "JSONField backport from Django 3.1"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1143
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1196
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1200
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1204
+msgid "No response body"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1168
+#: venv/lib/python3.8/site-packages/drf_spectacular/openapi.py:1220
+msgid "Unspecified response body"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/drf_spectacular/plumbing.py:387
+#, python-format
+msgid "Token-based authentication with required prefix \"%s\""
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/drf_spectacular/views.py:41
+msgid ""
+"\n"
+"    OpenApi3 schema for this API. Format can be selected via content "
+"negotiation.\n"
+"\n"
+"    - YAML: application/vnd.oai.openapi\n"
+"    - JSON: application/vnd.oai.openapi+json\n"
+"    "
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/durationwidget/widgets.py:28
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/durationwidget/widgets.py:30
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/durationwidget/widgets.py:32
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.8/site-packages/durationwidget/widgets.py:34
+#, fuzzy
+#| msgid "Second line"
+msgid "Second"
+msgid_plural "Seconds"
+msgstr[0] "Вторая линия"
+msgstr[1] "Вторая линия"
+msgstr[2] "Вторая линия"
+msgstr[3] "Вторая линия"
+
+#: venv/lib/python3.8/site-packages/isort/main.py:158
+#, fuzzy
+#| msgid "User with this email already exists"
+msgid "show this help message and exit"
+msgstr "Пользователь с таким email уже существует"
+
+#: venv/lib/python3.8/site-packages/kombu/transport/qpid.py:1303
+#, python-format
+msgid "Attempting to connect to qpid with SASL mechanism %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/kombu/transport/qpid.py:1308
+#, python-format
+msgid "Connected to qpid with SASL mechanism %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/kombu/transport/qpid.py:1326
+#, python-format
+msgid "Unable to connect to qpid with SASL mechanism %s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/pylint_django/tests/input/func_noerror_gettext_lazy_format.py:7
+#: venv/lib/python3.8/site-packages/pylint_django/tests/input/func_noerror_ugettext_lazy_format.py:7
+#, python-brace-format
+msgid "{something}"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/sphinxcontrib/jsmath/__init__.py:51
+msgid "Permalink to this equation"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/timezone_field/rest_framework.py:9
+msgid "A valid timezone is required."
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:371
+msgid "1 second ago"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:377
+msgid "1 minute ago"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:382
+msgid "1 hour ago"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:385
+#, python-format
+msgid "%(time)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:387
+#, fuzzy
+#| msgid "Registered"
+msgid "yesterday"
+msgstr "Зарегистрировано"
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:387
+#, fuzzy, python-format
+#| msgid "Registration date time"
+msgid "yesterday at %(time)s"
+msgstr "Время регистрации"
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:392
+#: venv/lib/python3.8/site-packages/tornado/locale.py:445
+#, python-format
+msgid "%(month_name)s %(day)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:394
+#, python-format
+msgid "%(month_name)s %(day)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:399
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:401
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:439
+#, python-format
+msgid "%(weekday)s, %(month_name)s %(day)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/locale.py:462
+#, python-format
+msgid "%(commas)s and %(last)s"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:68
+msgctxt "law"
+msgid "right"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:69
+msgctxt "good"
+msgid "right"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:71
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:74
+msgctxt "organization"
+msgid "club"
+msgstr ""
+
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:76
+#: venv/lib/python3.8/site-packages/tornado/test/locale_test.py:77
+msgctxt "stick"
+msgid "club"
+msgstr ""
+
+#~ msgid "User account is disabled."
+#~ msgstr "Учетная запись пользователя отключена."
+
+#, fuzzy
+#~| msgid "Invalid password"
+#~ msgid "Outdated password"
+#~ msgstr "Неверный пароль"

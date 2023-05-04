@@ -1,0 +1,2 @@
+from django_core.users.tasks.update_users_is_active_field import update_users_is_active_field
+from django_core.users.tasks.update_passwords_status import update_passwords_status

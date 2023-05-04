@@ -1,0 +1,33 @@
+# not last version
+Django==3.2.18
+
+django-environ==0.10.0
+django-cors-headers==3.14.0
+django-webpack-loader==1.8.1
+django-celery-beat==2.5.0
+django-phonenumber-field==7.0.2
+django-simple-history==3.3.0
+
+djangorestframework==3.14.0
+drf-spectacular==0.26.1
+drf-rw-serializers==1.0.5
+
+# not work with 4.0.0 version RuntimeError: Event loop is closed
+channels==3.0.5
+channels-redis==3.4.1
+daphne==3.0.2
+
+celery==5.2.7
+
+Jinja2==3.1.2
+
+phonenumbers==8.13.7
+
+psycopg2-binary==2.9.5
+
+attrdict3==2.0.2
+
+# OSlash==0.6.3 bad version
+OSlash==0.5.1
+
+argon2-cffi==21.3.0

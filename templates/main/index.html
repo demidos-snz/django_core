@@ -1,0 +1,27 @@
+{% load static i18n %}
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="{% static "icons/favicon.png" %}">
+  <title>{% translate "Incident Management" %}</title>
+{#  <script>window.subscription_url = '{{subscription_url}}'</script>#}
+{#  <link href="/static/front/css/app.d31ae277.css" rel="preload" as="style">#}
+{#  <link href="/static/front/css/chunk-vendors.0c920e9d.css" rel="preload" as="style">#}
+{#  <link href="/static/front/js/app.a8ffa69b.js" rel="preload" as="script">#}
+{#  <link href="/static/front/js/chunk-vendors.4752f622.js" rel="preload" as="script">#}
+{#  <link href="/static/front/css/chunk-vendors.0c920e9d.css" rel="stylesheet">#}
+{#  <link href="/static/front/css/app.d31ae277.css" rel="stylesheet">#}
+</head>
+<body>
+<noscript><strong>We're sorry but incident management doesn't work properly without JavaScript enabled. Please enable it
+  to continue.</strong></noscript>
+<div id="app"></div>
+{% render_bundle 'app' %}
+{#<script src="/static/front/js/chunk-vendors.4752f622.js"></script>#}
+{#<script src="/static/front/js/app.a8ffa69b.js"></script>#}
+</body>django_core.settings
+</html>

@@ -1,0 +1,124 @@
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 340px,
+  'md': 540px,
+  'lg': 800px - 24px,
+  'xl': 1280px - 24px,
+);
+
+html {
+  overflow: auto;
+  background: #1e1e1e;
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.35rem;
+  height: 0.35rem;
+}
+::-webkit-scrollbar-track {
+  background: #bbbaba;
+  border-radius: 2rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #6e6e6e;
+  border-radius: 2rem;
+}
+::-webkit-scrollbar-corner {
+  background: #3f3f3f;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f3f;
+}
+
+.scale-enter-active,
+.scale-leave-active {
+  transition: all 0.4s cubic-bezier(0, 1.05, 0.22, 0.98);
+}
+.scale-enter-from,
+.scale-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.app-container {
+  height: 100vh;
+
+  .max-full-height {
+    max-height: 100%;
+  }
+  .height-fit-content {
+    height: fit-content;
+  }
+  .height-60 {
+    height: 60px;
+  }
+  .width-fit-content {
+    width: fit-content;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .half-width {
+    width: 50%;
+  }
+  .width-50 {
+    width: 50px;
+  }
+  .width-400 {
+    width: 400px;
+  }
+  .max-width-200 {
+    max-width: 200px;
+  }
+  .max-width-250 {
+    max-width: 250px;
+  }
+  .max-width-360 {
+    max-width: 360px;
+  }
+  .max-width-20c {
+    max-width: 20ch;
+  }
+  .max-width-25c {
+    max-width: 25ch;
+  }
+  .max-width-30c {
+    max-width: 30ch;
+  }
+
+  .font-40r {
+    font-size: 20rem;
+  }
+  .font-5r {
+    font-size: 5rem;
+  }
+
+  .left-list-panel {
+    --serch-field-height: 75px;
+    --title-field-height: 75px;
+    --filter-field-height: 60px;
+
+    .search-field {
+      height: var(--serch-field-height);
+    }
+    .title {
+      height: var(--title-field-height);
+    }
+    .filter-field {
+      height: var(--filter-field-height);
+    }
+    .item-list {
+      height: calc(100% - var(--serch-field-height) - var(--title-field-height) - var(--filter-field-height));
+    }
+  }
+
+  .v-main__wrap {
+    background: #1e1e1e;
+  }
+  .navbar-container {
+    height: 48px;
+  }
+  .main-with-nav {
+    height: calc(100% - 48px);
+  }
+}
